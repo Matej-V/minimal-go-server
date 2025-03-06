@@ -1,3 +1,10 @@
+// Taken from https://www.slingacademy.com/article/serving-static-files-with-go-http/ adn modified.
+// Purpose: Minimal Go server that serves files from the "public" directory.
+// 	- Set UID and GID to 1000.
+// 	- Serve files from the "public" directory.
+// 	- Start the server on port 8080.
+
+
 package main
 
 import (
